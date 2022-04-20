@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500&display=swap');
+
+:root {
+    --color0: #FBD7B4;
+    --color1: #F8C1A4;
+    --color2: #F6AE83;
+    --color3: #F49F7B;
+    --color4: #EC855C;
+    --color5: #0D155A;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color5);
+    font: 1em 'Montserrat', sans-serif;
+}
+
+#logo {
+    padding-left: 30px;
+    max-width: 80px;
+    cursor: pointer;
+}
+
+#headernav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+.linkhover:hover {
+    border-bottom: 2px solid var(--color4);
+    transition: .1s;
+}
+
+#menu {
+    text-transform: uppercase;
+    display: flex;
+    align-self: center;
+    padding: 0px 30px;
+    font-size: .8em;
+}
+
+#parte01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: white;
+    font-weight: 300;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.152);
+    line-height: 2em;
+}
+
+#ar01 h1 {
+    padding-bottom: 30px;
+}
+
+#bt01 {
+    width: 300px;
+    height: 50px;
+    background-color: #EC855C;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.13);
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#bt01:hover {
+    transform: scale(1.1);
+    transition: .3s;
+    background-color: #CC382E;
+}
+
+#bt02 {
+    background-color: var(--color4);
+    width: 190px;
+    height: 30px;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 15px;
+    transition: .3s;
+}
+
+#bt02:hover {
+    transform: scale(1.1);
+    transition: .3s;
+    background-color: #CC382E;
+}
+
+#parte02 {
+    background-color: white;
+    margin-top: 70px;
+    height: 630px;
+    padding-bottom: 100px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.432);
+}
+
+#parte02 > article > h1 {
+    font-size: 1.7em;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+
+#ulzero {
+    list-style-type: none;
+    display: flex;
+}
+
+.ulparte02 {
+    background-color: var(--color0);
+    width: 500px;
+    min-height: 300px;
+    margin: 0px 7px;
+    text-align: justify;
+    line-height: 1.5em;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 5px solid var(--color4);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.29);
+    transition: .2s;
+}
+
+.ulparte02:hover {
+    box-shadow: 3px 3px 10px var(--color4);
+    transition: .2s;
+}
+
+.ulparte02 h1 {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+    background-color: var(--color5);
+    width: 80px;
+    height: 20px;
+    margin: auto;
+    border-radius: 50%
+}
+
+.ulparte02 h2 {
+    text-align: center;
+    margin: 20px 0px;
+    color: #0D155A;
+    font-weight: 500;
+}
+
+.ulparte02 p {
+    text-align: start;
+    color: rgb(43, 43, 43);
+    padding-bottom: 50px;
+}
+
+#imgparatodos:hover {
+    transform: scale(1.1);
+}
+
+#parte03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+
+#ar02 {
+    width: 500px;
+    color: white;
+    padding: 20px;
+}
+
+#ar02 h1 {
+    margin-bottom: 20px;
+}
+
+#bt03 {
+    width: 300px;
+    height: 50px;
+    background-color: var(--color4);
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.13);
+    margin-top: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#bt03:hover {
+    transform: scale(1.1);
+    transition: .3s;
+    background-color: #CC382E;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: .8em;
+    padding: 10px 0px;
+}
