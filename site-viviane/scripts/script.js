@@ -1,3 +1,10 @@
+let data = new Date();
+let ano = data.getFullYear();
+let hora = data.getHours();
+let minutos = data.getMinutes();
+let anosite = document.getElementById('anosite');
+
+
 let card01 = document.getElementById('card01')
 let card02 = document.getElementById('card02')
 let card03 = document.getElementById('card03')
@@ -49,4 +56,10 @@ function card04on() {
 
 function card04off() {
     card04h1.style.color = 'white'
+}
+
+anosite.innerHTML = ano
+
+function contato() {
+    alert(`Olá, agora são ${hora} horas e ${minutos} minutos`)
 }
